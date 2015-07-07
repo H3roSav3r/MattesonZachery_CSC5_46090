@@ -38,9 +38,9 @@ int main(int argc, char** argv) {
     cout<<"Number of Class C tickets sold = "<<endl;
     cin>>numC;
     cout<<"Total"<<endl;
-    cout<<"$"<<classA<<".00"<<endl;
-    cout<<"$"<<classB<<".00"<<endl;
-    cout<<"$"<<classC<<".00"<<endl;
+    cout<<"$"<<fixed<<showpoint<<setprecision(2)<<numA * classA<<endl;
+    cout<<"$"<<fixed<<showpoint<<setprecision(2)<<numB * classB<<endl;
+    cout<<"$"<<fixed<<showpoint<<setprecision(2)<<numC * classC<<endl;
     
     //Exit Stage
 
